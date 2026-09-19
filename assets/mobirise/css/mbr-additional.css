@@ -1183,13 +1183,8 @@ a {
   padding-bottom: 6rem;
   background-color: #fafafa;
 }
-.cid-sFGSX04rSl .row {
-  margin-left: 0;
-  margin-right: 0;
-}
 .cid-sFGSX04rSl .item {
-  padding-left: 0;
-  padding-right: 0;
+  padding-bottom: 2rem;
 }
 .cid-sFGSX04rSl .item-wrapper {
   height: 100%;
@@ -1439,6 +1434,53 @@ a {
 .cid-sFGSX04rSl H6 {
   text-align: center;
 }
+.cid-vvBjQTm7Xh {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-vvBjQTm7Xh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vvBjQTm7Xh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vvBjQTm7Xh .content-wrapper {
+  background: #fafafa;
+}
+@media (max-width: 991px) {
+  .cid-vvBjQTm7Xh .content-wrapper .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-vvBjQTm7Xh .content-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-vvBjQTm7Xh .content-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-vvBjQTm7Xh .content-wrapper {
+    padding: 5rem 3rem;
+  }
+  .cid-vvBjQTm7Xh .content-wrapper .text-wrapper {
+    padding-left: 2rem;
+  }
+}
+.cid-vvBjQTm7Xh .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
 .cid-vuyHg6gJnv {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1480,30 +1522,6 @@ a {
   font-size: 2rem;
   padding-right: 1.5rem;
   color: #4d6d9a;
-}
-.cid-sFGTcFRqw0 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-.cid-sFGTcFRqw0 .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
-}
-.cid-sFGTcFRqw0 form .mbr-section-btn {
-  text-align: center;
-  width: 100%;
-}
-.cid-sFGTcFRqw0 form .mbr-section-btn .btn {
-  display: inline-flex;
-}
-@media (max-width: 991px) {
-  .cid-sFGTcFRqw0 form .mbr-section-btn .btn {
-    width: 100%;
-  }
-}
-.cid-sFGTcFRqw0 textarea {
-  min-height: 10rem;
 }
 .cid-sFGSOnwtIp {
   padding-top: 30px;
