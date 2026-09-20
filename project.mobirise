@@ -48,17 +48,17 @@
     "versionPublish": "6.1.12",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/icons8-color-40-40x40_1.png",
-    "mbrsiteDomain": "rf30idavc7",
+    "mbrsiteDomain": "vpvt1hnbqn",
     "usedWebp": false,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "siteUrl": "https://www.gyorfestes.hu",
     "cookiesAlert": false,
     "gdpr": false,
     "publishEditFolder": false,
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-7MHTJT53MZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-7MHTJT53MZ');\n</script>",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\nAllow: /\n\n# OpenAI Botok (ChatGPT keresések és hivatkozások)\nUser-agent: GPTBot\nAllow: /\nUser-agent: OAI-SearchBot\nAllow: /\nUser-agent: ChatGPT-User\nAllow: /\n\n# Anthropic Botok (Claude AI keresések)\nUser-agent: ClaudeBot\nAllow: /\nUser-agent: Claude-SearchBot\nAllow: /\n\n# Perplexity AI (Kifejezetten MI-alapú keresőmotor)\nUser-agent: PerplexityBot\nAllow: /\n\n# Google AI kiterjesztés (Gemini modellekhez)\nUser-agent: Google-Extended\nAllow: /\n\nSitemap: https://www.gyorfestes.hu/sitemap.xml"
   },
   "pages": {
     "index.html": {
