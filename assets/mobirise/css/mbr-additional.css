@@ -687,11 +687,12 @@ a {
   outline-offset: 2px !important;
   transition: outline 0.2s ease-in-out;
 }
-.cid-sFGMsvHDIa .navbar-dropdown {
-  position: relative !important;
+.cid-sFGMsvHDIa {
+  z-index: 1000;
+  width: 100%;
 }
-.cid-sFGMsvHDIa .navbar-dropdown {
-  position: absolute !important;
+.cid-sFGMsvHDIa nav.navbar {
+  position: fixed;
 }
 .cid-sFGMsvHDIa .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1001,6 +1002,7 @@ a {
 }
 .cid-sFGMsvHDIa .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sFGMsvHDIa a.nav-link {
   display: flex;
@@ -1030,9 +1032,9 @@ a {
   }
 }
 .cid-sFGMfPD7iT {
-  padding-top: 17rem;
-  padding-bottom: 16rem;
-  background-image: url("../../../assets/images/falfestes-gyor-dizajn-1536x1024.png");
+  padding-top: 9rem;
+  padding-bottom: 12rem;
+  background-image: url("../../../assets/images/chatgpt20image202026.20szept.2021.2020-02-25-1024x1536.png");
 }
 .cid-sFGMfPD7iT .mbr-section-title {
   text-align: center;
